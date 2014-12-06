@@ -7,7 +7,7 @@ for ($day = 1; $day <= $monthDays; $day++) {
     $date = "$year/$month/$day";
 
     if (date('N', strtotime($date)) >= 7){
-        echo date("jS F, Y", mktime(0, 0, 0, $month, $day, $year)) . "\n";
+        echo date("jS F, Y", mktime(0, 0, 0, $month, $day, $year)) . "<br/>\n";
     };
 }
 ?>
