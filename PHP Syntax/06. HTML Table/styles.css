@@ -1,0 +1,22 @@
+body{
+    font: 14px Tahoma, sans-serif;
+}
+
+table{
+    border: 1px solid black;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.bold{
+    font-weight: bold;
+    text-align: left;
+    background-color: #FFA500;
+}
+
+td{
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    width: 110px;
+    text-align: right;
+}

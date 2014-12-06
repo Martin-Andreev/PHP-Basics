@@ -1,0 +1,20 @@
+form{
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+table{
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+table, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px 10px;
+    text-align: center;
+}

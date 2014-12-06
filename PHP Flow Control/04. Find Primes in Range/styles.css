@@ -1,0 +1,39 @@
+form{
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 550px;
+}
+
+input{
+    margin-right: 30px;
+}
+
+label{
+    margin-right: 6px;
+}
+
+input[type='submit']{
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#contentBox{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+p{
+    display: inline-block;
+    padding: 0 4px;
+    margin-right: 2px;
+}
+
+.prime{
+    background-color: #585858;
+    color: white;
+}

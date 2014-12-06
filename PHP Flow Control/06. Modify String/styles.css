@@ -1,0 +1,35 @@
+form{
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 1.5%;
+}
+
+input{
+    margin-left: 60px;
+    margin-bottom: 2%;
+}
+
+input[type='text']{
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+
+input[type='submit']{
+    margin-top: 4%;
+    margin-left: 85px;
+    width: 90px;
+    height: 25px;
+    background-color: #585858;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type='submit']:hover{
+    background-color: #343434;
+}
+
+p{
+    margin-top: 2%;
+    text-align: center;
+}
