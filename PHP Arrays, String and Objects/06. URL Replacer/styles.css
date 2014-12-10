@@ -1,0 +1,48 @@
+form{
+    width: 405px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-left: 46%;
+    margin-top: 2%;
+    width: 75px;
+}
+
+label:nth-of-type(2){
+    margin-left: 45%;
+}
+
+#inputText{
+    width: 400px;
+    max-width: 400px;
+    height: 50px;
+    max-height: 200px;
+    margin-top: 1%;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    width: 130px;
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}
+
+input:hover{
+    background: #4b4b4b;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
