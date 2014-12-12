@@ -37,7 +37,7 @@ if (isset($_GET['text'])){
 
     $score = 0;
 
-    if ((in_array($_GET['text'], $tags) && ($_GET['text']) != "")){
+    if ((in_array($_GET['text'], $tags))){
         $_SESSION['count']++;
         $score = $_SESSION['count'];
         echo "<p> Valid HTML tag! <br> Score: $score</p>";
